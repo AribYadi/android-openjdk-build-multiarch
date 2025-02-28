@@ -94,7 +94,6 @@ bash ./configure \
     --with-jdk-variant=normal \
     --with-jvm-variants="${JVM_VARIANTS/AND/,}" \
     --with-cups-include=$CUPS_DIR \
-    --with-devkit=$TOOLCHAIN \
     --with-debug-level=$JDK_DEBUG_LEVEL \
     --with-fontconfig-include=$ANDROID_INCLUDE \
     --with-freetype-lib=$FREETYPE_DIR/lib \
